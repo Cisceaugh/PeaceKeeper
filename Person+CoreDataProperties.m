@@ -15,8 +15,8 @@
 
 @dynamic email;
 @dynamic firstName;
-@dynamic lastName;
 @dynamic phoneNumber;
+@dynamic lastName;
 @dynamic chores;
 @dynamic household;
 

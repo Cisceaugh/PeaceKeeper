@@ -9,14 +9,14 @@
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
-@class Chore, Person, Household;
+@class Chore, Person;
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CompletedChore : NSManagedObject
 
 + (NSString *)name;
-+ (instancetype)completedChoreWithCompletionDate:(NSDate * _Nonnull)completionDate chore:(Chore * _Nonnull)chore person:(Person * _Nonnull)person household:(Household *)household;
++ (instancetype)completedChoreWithCompletionDate:(NSDate * _Nonnull)completionDate chore:(Chore * _Nonnull)chore person:(Person * _Nonnull)person;
 
 @end
 
